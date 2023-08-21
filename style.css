@@ -1,0 +1,99 @@
+body {
+    color: white;
+
+    background-color: #393E46;
+}
+.container {
+    color: white;
+}
+.top-1 h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: #4ecca3;
+    font-size: 108px;
+    font-family: 'Lobster';
+    text-shadow: 0 0 10px red;
+    animation-name: top-head;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes top_head {
+    0% {
+        text-shadow: 0 0 10px red;
+
+
+    }
+    50% {
+        text-shadow: 0 0 100px orangered;
+
+
+    }
+    100% {
+        text-shadow: 0 0 10px red;
+
+
+    }
+    
+}
+#result {
+    color: orange;
+    font-family: 'Lobster';
+    text-shadow: 0 0 10px red;
+
+    text-align: center;
+    font-size: 68px;
+    animation-name: result;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes result {
+    0% {
+        text-shadow: 0 0 10px red;
+
+
+    }
+    50% {
+        text-shadow: 0 0 100px red;
+
+
+    }
+    100% {
+        text-shadow: 0 0 10px red;
+
+
+    }
+    
+}
+.dice-1,.dice-2 {
+    height: 250px;
+}
+
+img {
+    height: inherit;
+    margin-left: 30%;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0 0 10px blueviolet;
+    
+
+
+}
+.footer {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 28px;
+    color: red;
+    text-shadow: 0 0 10px yellow;
+
+
+
+
+}
